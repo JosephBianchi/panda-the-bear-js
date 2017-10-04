@@ -60,3 +60,30 @@ formSub.value = 'You Mad Bro'
 
 (13)
 formSub.disabled = 'true'
+
+(14)
+var bioInfoValue = document.querySelectorAll('.bio-info-value'); bioInfoValue for (var i = 0; i < bioInfoValue.length; i++) { bioInfoValue[i].innerText = null; }
+
+(15)
+
+var travelSkill = document.querySelectorAll('.bar-default')
+travelSkill[2].remove()
+
+(16)
+var p = document.getElementById("right-image");
+var pPrime = p.cloneNode(true);
+
+(17)
+var p = document.querySelector('#right-image img');
+var pPrime = p.cloneNode(true);
+portfoilioContainer = document.querySelector('.portfolio-container')
+portfoilioContainer.appendChild(pPrime)
+
+(18)
+for ( i = 0; i < 10; i++) {
+  var p = document.querySelector('#right-image img');
+  var pPrime = p.cloneNode(true);
+  portfoilioContainer = document.querySelector('.portfolio-container')
+  portfoilioContainer.appendChild(pPrime)   }
+
+(19)
